@@ -1,0 +1,45 @@
+.content{
+	margin-top: 100px;
+	/*border: 1px solid black;*/
+	width: 90%;
+	margin-left: 5%;
+}
+.batas{
+	margin-bottom: 100px;
+}
+
+.colom{
+	border: 1px solid black;
+}
+.center{
+	text-align: center;
+}
+.garis{
+	border:0px;
+	border-top: 3px double #8c8c8c;
+}
+.warna{
+	background-color:#D6D5D5;
+}
+
+.warna2{
+	background-color:#FF3232;
+	border-radius: 5px;
+}
+.padding{
+	letter-spacing: 5px;
+}
+
+.txt{
+	color: white;
+}
+.view{
+	border: 1px;
+	background-color: #D6D5D5;
+	height: auto;
+	box-shadow: 10px 10px;
+	border-radius: 20px;
+}
+.tebal{
+	font-family: "Times New Roman", Times, serif;
+}

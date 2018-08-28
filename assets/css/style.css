@@ -1,0 +1,113 @@
+
+/*css barang.php*/
+.pop_cari{
+	position:absolute;
+	/*margin-top:2px;*/
+	/*left:5;*/
+	color:#FFF;
+	min-width:350px;
+	height:200px; 
+	z-index:100;
+	background:#E60938;
+	/*padding:2px;*/
+	box-shadow:0 0 20px #33FF33;
+	border-radius:10px;
+	overflow:scroll;
+    display:none;
+    /*min-width: 50%;*/
+}
+
+.hover li:hover{
+	background-color:#2CF6F4;
+	border-radius: 5px;
+	cursor:default;
+}
+.hover{
+	list-style: none;
+	text-align:left;
+	padding: 3px;
+}
+
+
+/*index.php atau halaman_utama.php*/
+.border{
+	/* border:1px solid; */
+	height: 150px;
+	padding: 60px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	/* border-color:none; */
+}
+.border a{
+	text-decoration: none;
+	color: black;
+}
+/* a:hover{
+	color: #FEF6FF;
+	
+} */
+/* .border:hover{
+	transform: scale(1.1);
+} */
+.container{
+	padding: 50px;
+}
+
+
+/*popup di halaman_utama.php*/
+#popup {
+width: 100%;
+min-height: 600px;
+position: fixed;
+background: rgba(0,0,0,.7);
+top: 0;
+left: 0;
+z-index: 9999;
+visibility: hidden;
+/*background-color: #B84545;*/
+}
+
+.window {
+width: 98%;
+height: 600px;
+background: #fff;
+border-radius: 10px;
+position: relative;
+padding: 10px;
+box-shadow: 0 0 5px rgba(0,0,0,.4);
+text-align: center;
+/*margin: 15% auto;*/
+margin-top: 5%;
+margin-bottom: 100%;
+margin-left: 1%;
+overflow: scroll;
+ position:absolute;
+ /*background-color: #B84545;*/
+}
+
+.close-button {
+width: 50px;
+height: 50px;
+background: #000;
+border-radius: 50%;
+border: 3px solid #fff;
+display: block;
+text-align: center;
+color: #fff;
+text-decoration: none;
+position: absolute;
+top: -10px;
+right: -10px;
+}
+
+#popup:target {
+visibility: visible;
+}
+
+@media(max-width: 331px){
+	.head{
+		margin-left: 0%;
+	}
+}
+
