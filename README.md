@@ -1,1 +1,1 @@
-# php-native-toko-azca
+PHP Native- Aplikasi Toko azca adalah sebuah aplikasi untuk mengelola transkasi penjulan dan pembelian barang, memilik menu penjualan, menu pembelian, menu barang, menu laporan bulanan/harian, menu add admin, menu add kategori, supplier, custumer dan satuan barang.  keluaran yang di hasilkan adan laporan barang, laporan penjualan, laporan pembelian
